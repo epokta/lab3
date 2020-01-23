@@ -14,6 +14,7 @@ function initializePage() {
 		$("#testjs").text("Please wait...");
 		$(".jumbotron p").addClass("active");
 	});
+	$("a.thumbnail").click(projectClick);
 	function projectClick(e) {
 		// prevent the page from reloading
 		e.preventDefault();
